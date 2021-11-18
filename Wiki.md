@@ -1,7 +1,5 @@
-What is an HLIB file ?
-An HLIB File is a Library for HCMD.
+#### How to create an HLIB file ?
 
-How to create an HLIB file ?
 Thats very simple !
 
 First, go to filesystem/ folder, and go to lib/ folder
@@ -12,8 +10,11 @@ Open the file with a text editor
 
 Write the example :
 
+```
 elif userType == "mylib":
     print("You use MyLib in your HCMD Lib folder")
+```
+
 And save.
 
 Now open HCMD
